@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding-top: 70px;
+    height: 900px;
+}
+.header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: wheat;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+}
+.left-section{
+    
+    padding-top: 0px;
+    display: flex;
+    height: 95px;
+    align-items: center;
+}
+.logo{
+    height: 70px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.mid-section{
+    flex: 1;
+    margin-left: 35px;
+    margin-right: 35px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+}
+.search-bar{
+    flex: 1;
+    height: 35px;
+    padding-left: 12px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(183, 183, 183);
+    width: 0;
+}
+.search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+}
+.search-button{
+    height: 39px;
+    width: 60px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(183, 183, 183);
+    margin-left: -1px;
+    cursor: pointer;
+    
+}
+.search-button-logo{
+    width: 40%;
+    border-style: none;
+}
+.right-section{
+    width: 200px;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.user-button-icon{
+    width: 9%;
+    cursor: pointer;
+}
+
+.favourites-button-icon{
+    width: 10%;
+    cursor: pointer;
+}
+.cart-button-icon{
+    width: 10%;
+    
+    cursor: pointer;
+}
+.greeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-family: Reddit Mono;
+}
+.products-catalog{
+    display: flex;
+    flex:1;
+    justify-content: center; 
+    align-items: center;
+    width: 50%;
+    margin-left: 195px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: chocolate;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+.products-list-flex{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    
+}
+.product-1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-width: 1px;
+    border-radius:5px;
+    border-style:solid;
+}
+.product-milk{
+    width: 55%;
+    margin-left: 80px;
+}
+.product-des{
+   display: flex;
+   flex-direction: column;
+   
+}
+.description-milk{
+    margin-left: 20px;
+    font-family: Lato;
+
+}
+.mrp-milk{  
+    margin-left:20px;
+    font-family: Lato;
+}
+.button-container{
+    display: flex;
+}
+.cart-button{
+    height: 76px;
+    cursor: pointer;
+    
+    
+}
+.favourites-button{
+    height: 76px;
+    cursor: pointer;
+}
+.product-2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 312px;
+    background-color: white;
+    border-width: 1px;
+    border-radius:5px;
+    border-style:solid;
+    margin-left:50px;
+}
+.product-ghee{
+    width: 55%;
+    margin-left: 80px;
+}
+.product-des-ghee{
+    display:flex;
+    flex-direction: column;
+
+}
+.ghee-des{
+    margin-left:20px;
+    font-family: Lato;
+}
+.mrp-ghee{
+    margin-left:20px;
+    font-family: Lato;
+}
+
